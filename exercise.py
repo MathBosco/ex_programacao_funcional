@@ -5,7 +5,7 @@ def get_year(data):
     ano = ano.split('/')
     return int(ano[2])
 
-file = './teste.csv'
+file = './base.csv'
 
 # Abre o arquivo colocando linha por linha na memória
 lines = (line for line in open(file))
